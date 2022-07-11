@@ -1,0 +1,44 @@
+* {
+    background-color:darkgray;
+}
+
+.menú {
+    display: flex;
+}
+
+label{
+    margin-left: 12px;
+
+
+}
+
+input{
+    margin-left: 12px;
+}
+
+button{
+    margin-left: 20px;
+    background-color: black;
+    color: aliceblue;
+    width: 400px;
+}
+
+.gridday{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    word-wrap: break-word;
+}
+
+head{
+    padding: 30px;
+    width: 200%;
+    
+}
+
+.menú{
+    min-width: 600px;
+    width: 75%;
+    
+
+
+}
